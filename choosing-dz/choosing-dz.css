@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Aclonica-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Aclonica/Aclonica-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-LightItalic; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Light; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  }
+.content__wrapper{
+  display: flex;
+  margin-left: 5%;
+  margin-right: 10%;
+  margin-top: 5%;
+  justify-content: space-around;
+  font-family: Montserrat-Regular;
+  color: #114A8E;
+}
+.content__info-block{
+  width: 20%;
+}
+.content__info-block-text1{
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.content__info-block-text2{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 5%;
+}
+.content__info-block-text3{
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 18px;
+  color: #358F16;
+  margin-top: 15%;
+}
+.content__info-block-text4{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 21px;
+  margin-top: 5%;
+}
+.content__info-block-text4 span{
+  font-family: Montserrat-Bold;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+}
+.content__student-photo{
+  text-align: center;
+  width: 25%;
+}
+.content__student-photo p{
+  text-align: center;
+  color: #073164;
+  
+}
+.content__tutor-reply{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  
+}
+.content__tutor-replay-student-work{
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  width: 435px;
+  height: 123px;
+  padding-left: 5%;
+  padding-top: 2%;
+  background: linear-gradient(156.21deg, #D6E0EE 30.46%, #B2C3DD 77.49%);
+
+}
+.content__tutor-replay-student-work-file{
+width: 125.73px;
+height: 24.97px;
+background: #9DA7DD;
+border-radius: 3px;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+color: #041932;
+padding-top: 1%;
+margin-top: 12%;
+
+}
+
+.content__tutor-reply-answer{
+  display: flex;
+  justify-content: space-around;
+  width: 773px;
+  height: 410px;
+  margin-top: 10%;
+  background: linear-gradient(140.41deg, #EBF1F9 30.46%, #DDEBFF 77.49%);
+}
+
+.content__tutor-reply-answer-form{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.content__tutor-reply-answer-form textarea{
+  width: 100%;
+  margin-top: 5%;
+  margin-left: 5%;
+  height: 208.63px;
+  background: #FEFEFE;
+  box-shadow: inset 0px 1px 2px rgba(28, 60, 89, 0.25);
+}
+.content__tutor-reply-answer-form-input{
+  width: 125.73px;
+height: 24.97px;
+background: #9DA7DD;
+border-radius: 3px;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 13px;
+text-align: center;
+color: #041932;
+
+
+}
+.content__tutor-reply-answer-input-wrapper{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15%;
+  margin-left: 5%;
+}
+.content__tutor-reply-answer-status-wrapper{
+  width: 25%;
+  text-align: center;
+}
+.content__tutor-reply-answer-status{
+  margin-top: 35%;
+  margin-bottom: 10%;
+}
+select{
+  width: 53px;
+  background: linear-gradient(180deg, #9FB7F4 0%, #DAE1F2 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}
+.content__tutor-reply-answer-status option{
+  width: 33px;
+  background: linear-gradient(180deg, #9FB7F4 0%, #DAE1F2 100%);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+}

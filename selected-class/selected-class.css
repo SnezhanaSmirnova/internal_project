@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Aclonica-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Aclonica/Aclonica-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-LightItalic; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Light; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  }
+
+  /* topic-name */
+  .topic-name__container{
+    width: 239px;
+    height: 150px;
+    margin: 100px 0px 20px 200px;
+    color: #124178;
+  
+  }
+  .topic-name__container-class-number{
+    font-family: Montserrat-Regular;
+    font-size: 18px;
+    
+  }
+  .topic-name__container-class-title{
+    font-family: Montserrat-Bold;
+    font-size: 23px;
+    margin: 10px 0px;
+    
+  }
+  .topic-name__container-date{
+    font-family: Montserrat-Light;
+    font-size: 14px;
+  }
+
+
+  /* materials */
+  .materials__title{
+    height: 30px;
+    font-family: Montserrat-SemiBold;
+    font-size: 15px;
+    background-color: #C8D3F5;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .materials__title p{
+    margin-left: 200px;
+    color: #124178;
+    align-items: center;
+    padding-top: 5px;
+  }
+  .material__container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1071px;
+    color: #124178;
+    /* height: 680px; */
+    margin: 0 auto;
+}
+  .material__container-video{
+    /* width: 25%; */
+    align-items: center;
+
+  }
+  .material__container-videotitle{
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    color: #0F3A6D;
+    /* width: 166px; */
+    text-align: center;
+    margin: 15px 0px;
+
+  }
+
+
+  /* documents */
+  .documents__title{
+    height: 30px;
+    font-family: Montserrat-SemiBold;
+    font-size: 15px;
+    background-color: #C8D3F5;
+    margin-bottom: 30px;
+    display: flex;
+  }
+  .documents__title p{
+    margin-left: 200px;
+    color: #124178;
+    align-items: center;
+    padding-top: 5px;
+  }
+  .documents__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 1071px;
+    margin: 0 auto;
+  }
+  .documents__container-literature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+}
+
+.documents__container-link{
+    color: #042348;
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    margin: 15px 0px;
+}
+.documents__container-link a{
+  color:#0F3A6D;
+}
+
+  /* изменение в шапке документа: переименовала классы, чтобы расставить все в линию */
+  .main-header__page-information-change-specialty-literature{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    font-family: Montserrat-Regular;
+    align-items: center;
+    font-size: 16px;
+    color: #124178;
+    justify-content: space-around;
+  }
+  .main-header__page-information-literature{
+    padding-right: 50px;
+  }
+  

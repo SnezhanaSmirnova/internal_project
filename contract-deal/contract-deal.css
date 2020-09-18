@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @font-face {
+    font-family: Montserrat-Medium; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Medium.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Aclonica-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Aclonica/Aclonica-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Regular; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-LightItalic; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-LightItalic.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Bold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Bold.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-Light; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-Light.ttf); /* Путь к файлу со шрифтом */
+  }
+  
+  @font-face {
+    font-family: Montserrat-SemiBold; /* Гарнитура шрифта */
+    src: url(../fonts/Montserrat/Montserrat-SemiBold.ttf); /* Путь к файлу со шрифтом */
+  }
+
+  .form-container{
+    width: 800px;
+    height: 650px;
+    background: linear-gradient(180deg, #2F4AA7 0%, #6481E4 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Montserrat-Regular;
+    color: #114A8E;
+  }
+  h3{
+    width: 100%;
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+  }
+  form{
+    width: 750px;
+    position: relative;
+    top: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-wrapper input, select{
+    width: 30%;
+    font-family: Montserrat-Regular;
+    color: #114A8E;
+    border: none;
+    font-size: 16px;
+  }
+
+  .input-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    
+  }
+  .input-wrapper p{
+    width: 45%;
+    font-family: Montserrat-Bold;
+  }
+  .coast{
+    margin-top: 50px;
+  }
+  .submit{
+    width: 150px;
+    height: 40px;
+    background: #0C216B;
+    border-radius: 4px;   
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+   margin-bottom: 20px;
+   margin-top: 20px;
+   border: none;
+    
+  }
